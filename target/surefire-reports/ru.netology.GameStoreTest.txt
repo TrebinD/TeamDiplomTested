@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: ru.netology.GameStoreTest
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 0.104 s <<< FAILURE! - in ru.netology.GameStoreTest
+shouldAddGameOneGame  Time elapsed: 0.068 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at ru.netology.GameStoreTest.shouldAddGameOneGame(GameStoreTest.java:26)
+
+shouldAddGame  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <true> but was: <false>
+	at ru.netology.GameStoreTest.shouldAddGame(GameStoreTest.java:17)
+
+allTimePlayed  Time elapsed: 0 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <5> but was: <0>
+	at ru.netology.GameStoreTest.allTimePlayed(GameStoreTest.java:107)
+
+addPlayerTime  Time elapsed: 0.009 s  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <Vasia> but was: <Gena>
+	at ru.netology.GameStoreTest.addPlayerTime(GameStoreTest.java:92)
+
