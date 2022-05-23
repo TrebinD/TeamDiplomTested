@@ -110,21 +110,6 @@ public class PlayerTest {
 
     }
 
-    @Test
-    public void mostTimeTwoGamesThisGenre() {
-
-        player.installGame(game);
-        player.installGame(game1);
-        player.installGame(game2);
-        player.play(game, 22);
-        player.play(game1, 22);
-
-        String exception = "SWAT";
-        String actual = player.mostPlayerByGenre("Action");
-
-        assertEquals(exception, actual);
-
-    }
 
     @Test
     public void sumGenre() {
